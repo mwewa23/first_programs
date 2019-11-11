@@ -6,3 +6,5 @@ puts " finally, your last name?"
 last = gets.chomp
 full_name = [first, middle, last]
 puts "pleasure to meet you " + full_name.join('').to_s
+
+puts first.length.to_s + middle.length.to_s + last.length.to_s
