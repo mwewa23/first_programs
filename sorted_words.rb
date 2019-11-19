@@ -1,4 +1,3 @@
-
 puts "Enter a word"
 word = gets.chomp
 array1 =[]

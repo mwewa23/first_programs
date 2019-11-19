@@ -1,8 +1,10 @@
-linewidth = 50
-str = 'text'
-puts str.ljust   linewidth
-puts str.center  linewidth
-puts str.rjust   linewidth
-
+puts "Enter a number"
+number = gets.chomp.strip.to_i
+level= case number
+when >100 then "High"
+when (51..100) then "Medium"
+else "Low"
+end
+puts level
 
  
