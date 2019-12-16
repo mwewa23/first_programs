@@ -14,3 +14,14 @@ end
 my_hash = {:this_one => "Sam", :sym2 => 15, :sym3 => 24 }
 
 this_hash(my_hash)
+
+require_relative "classes_test.rb"
+# this loads the other file
+
+mc = MyClass.new
+mc.a = 3
+mc.b = "this"
+
+puts mc
+
+
