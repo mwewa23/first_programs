@@ -1,3 +1,4 @@
+#Lesson 9: Classes  - Sums.rb
 class Sum1
     attr_accessor :total
     def initialize(num,num1)
